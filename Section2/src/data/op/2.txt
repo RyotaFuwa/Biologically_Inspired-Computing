@@ -1,0 +1,1 @@
+LN(INV(LN(SUB(INV(EXP(ADD(ADD(INV(ADD(ADD(0.56461 LN(SUB(2.7285 var0))) -2.9167)) var1) var1))) var0))))

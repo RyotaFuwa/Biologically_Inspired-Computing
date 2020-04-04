@@ -1,0 +1,20 @@
+hidden_layers: [20, 20]
+activation: "relu"
+dropout: [0.0, 0.0]
+
+loss: "binary_crossentropy"
+metrics: ["accuracy"]
+
+optimizer: 
+  name: "Adam" # SGD, Adam, 
+  config:
+    clipnorm: 1.
+    learning_rate: 0.2
+    beta_1: 0.85
+    beta_2: 0.851
+    #momentum: 0.05
+    decay: 0.02
+
+batch_size: 2048
+epochs: 250
+validation_split: 0.0

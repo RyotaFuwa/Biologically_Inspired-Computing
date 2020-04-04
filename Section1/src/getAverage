@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+mkdir -p temp
+for i in {1..30}
+do
+java -cp jenetics-4.2.0.jar CW1_GA.java GA.config > temp/tmp$i.csv
+#java -cp jenetics-4.2.0.jar CW1_GA.java > temp/tmp$i.csv
+done
+./calc_average.py temp $1
+rm -rf temp

@@ -1,0 +1,19 @@
+activation: relu
+batch_size: 1024
+dropout:
+- 0.0
+- 0.0
+epochs: 250
+hidden_layers:
+- 20
+- 30
+loss: binary_crossentropy
+metrics:
+- accuracy
+optimizer:
+  config:
+    clipnorm: 1.0
+    decay: 0.0001
+    learning_rate: 0.005
+  name: Adam
+validation_split: 0.2

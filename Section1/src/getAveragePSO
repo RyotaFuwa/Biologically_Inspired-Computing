@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+javac CW1_PSO.java MyFitnessFunction.java MyParticle.java
+mkdir -p temp_pso
+for i in {1..30}
+do
+java CW1_PSO PSO.config  > temp_pso/temp$i.csv
+done
+./calc_average.py temp_pso $1
+rm -rf temp_pso

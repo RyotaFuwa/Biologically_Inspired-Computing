@@ -1,0 +1,1 @@
+ADD(ADD(CBRT(ADD(SUB(-0.83496 var0) CBRT(ADD(1.7109 CBRT(SUB(-1.7296 var0)))))) CBRT(ADD(CBRT(ADD(CBRT(ADD(ADD(var1 var1) var0)) CBRT(ADD(var1 CBRT(var1))))) CBRT(ADD(ADD(var1 CBRT(var1)) var0))))) var0)
